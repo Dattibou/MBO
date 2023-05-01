@@ -10,7 +10,7 @@ public class TicTacToe implements ActionListener{
     JPanel button_panel = new JPanel();
     JLabel textfield = new JLabel();
     JButton[] buttons = new JButton[9];
-    JButton restart_button = new JButton("Restart");´+
+    JButton restart_button = new JButton("Restart");
 
     boolean player1_turn = true;
     int turns_left = 9;
